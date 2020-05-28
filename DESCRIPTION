@@ -1,0 +1,27 @@
+Package: info_gRaphic
+Type: Package
+Title: An R Package to Create Infographic Style Plots
+Version: 0.1.0
+Author: Jake W. Roden-Foreman
+Maintainer: Jake W. Roden-Foreman <jakerodenforeman@gmail.com>
+Authors@R: 
+    person(given = "Jacob",
+           family = "Roden-Foreman",
+           role = c("aut", "cre"),
+           email = "jakerodenforeman@gmail.com",
+           comment = c(ORCID = "0000-0002-8338-397X"))
+Description: An R package to create infographic style plots (hopefully)
+    Use four spaces when indenting paragraphs within the Description.
+License: use_gpl3_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    stats,
+    utils,
+    dplyr,
+    plyr,
+    ggplot2,
+    tibble,
+    grDevices
